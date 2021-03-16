@@ -1,0 +1,12 @@
+{
+  "name": "whale",
+  "version": "0.0.1",
+  "description": "a notes app by Electron",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd client && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
