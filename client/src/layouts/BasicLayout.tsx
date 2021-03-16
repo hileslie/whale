@@ -1,7 +1,8 @@
-import { Layout, Menu, Breadcrumb } from 'antd';
+import { Layout } from 'antd';
 import React from 'react';
 import HeaderContent from '../components/Header/index';
 import SiderContent from '../components/Sider/index';
+import MainLayout from './MainLayout';
 
 const { Content } = Layout;
 
@@ -13,9 +14,7 @@ const BasicLayout = () => {
         <SiderContent />
         <Layout>
           <Content>
-            <h1>
-              Hi Whale~
-            </h1>
+            <MainLayout />
           </Content>
         </Layout>
       </Layout>

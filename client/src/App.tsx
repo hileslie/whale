@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import BasicLayout from './layouts/BasicLayout';
+import BlankLayout from './layouts/BlankLayout';
 import 'antd/dist/antd.less';
 import './global.less';
 
 const App = () => {
-  return <BasicLayout />;
+  return <BlankLayout />;
 }
 
 ReactDom.render(<App />, document.getElementById('whale-app'));
